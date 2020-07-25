@@ -1,0 +1,31 @@
+cognitive_energy_meter:
+  description: Cmeter
+  sample_period: 0.025
+  max_sample_period: 0.025
+  measurements:
+  - physical_quantity: power
+    type: apparent
+    upper_limit: 8000
+    lower_limit: 0
+  - physical_quantity: power
+    type: active
+    upper_limit: 8000
+    lower_limit: 0
+  - physical_quantity: current
+    type: 'active'
+  - physical_quantity: current
+    type: 'reactive'
+  - physical_quantity: current
+    type: 'void'
+  wireless: true
+
+plug_data_logger:
+  description: Plug data logger
+  sample_period: 1
+  max_sample_period: 2
+  measurements:
+  - physical_quantity: power
+    type: apparent
+    upper_limit: 3200
+    lower_limit: 0
+  wireless: true

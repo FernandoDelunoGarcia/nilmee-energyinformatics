@@ -1,0 +1,21 @@
+instance: 1
+original_name: house_1
+dataset: ...
+elec_meters:
+  1: &cmeter_whole_house
+    site_meter: true
+    device_model: cognitive_energy_meter
+  6: &iplugB
+    submeter_of: 1
+    device_model: plug_data_logger
+  7: *iplugB
+
+appliances:
+- original_name: fridge
+  type: fridge freezer
+  instance: 1
+  meters: [6]
+- original_name: microwave
+  type: microwave
+  instance: 1
+  meters: [7]

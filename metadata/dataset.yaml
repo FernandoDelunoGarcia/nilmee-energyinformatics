@@ -1,0 +1,20 @@
+name: NILMEE
+long_name: The Energy Disaggregation Data set for Energy Efficiency Assessment of Household Appliances
+creators:
+- Garcia, Fernando
+- Souza, Wesley
+- Marafão, Fernando
+publication_date: 2020
+institution: Unesp
+contact: fernando.delunogarcia@gmail.com
+description: None.
+subject: Disaggregated power demand from domestic buildings.
+number_of_buildings: 1
+timezone: America/Sao_Paulo
+geo_location:
+  locality: Sorocaba, São Paulo
+  country: BR
+  latitude: -23.4794
+  longitude: -47.4172
+related_documents: https://github.com/FernandoDelunoGarcia/nilmee-energyinformatics.git
+schema: https://github.com/FernandoDelunoGarcia/nilm_metadata
